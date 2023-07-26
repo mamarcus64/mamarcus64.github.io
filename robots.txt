@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://mamarcus64.github.io/sitemap.xml
