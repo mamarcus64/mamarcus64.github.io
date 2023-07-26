@@ -1,10 +1,7 @@
 ---
 layout: about
-permalink: /about/
-title: about
-description: Materials for courses you taught. Replace this text with your description.
-nav: true
-nav_order: 5
+title: Co-Well
+permalink: /co-well/
 
 profile:
   align: right
