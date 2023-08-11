@@ -1,10 +1,12 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: Prognomiq
+description: Software engineer intern.<br>May 2021 - July 2021. San Mateo, CA.
 img:
 importance: 3
-category: fun
+category: 2021
+learn_more: If you ever find yourself in San Mateo, you have to try out <a href="https://www.wursthall.com/">Wursthall</a>. Not only was it founded by my culinary idol, Kenji Lopez-Alt, it's probably the best you'll get to authentic Bavarian beer and sausages outside of Munich. When I wasn't exploring the gustatory scene in Northern California, I was working for a small biotech startup called <a href="https://prognomiq.com/">Prognomiq</a>. Their work is super cool, using protein detection in blood samples for early diagnosis of a suite of cancers and diseases. For those familiar with the biotech industry, imagine Theranos, but it actually works and they're not trying to sell you magic beans. While I was a software intern there, I was tasked with creating an automated medical records pipeline for data analysis. Prognomiq had several thousand unprocessed medical records from their dozens of field studies across America, and each hospital recorded patient data in different ways. I created a script that converted all of these records into a single unified format, merged them with existing data on Prognomiq's servers, and created version histories for each patient in the case of multiple forms.
+proj_id: prognomiq
 ---
 
 Every project has a beautiful feature showcase page.

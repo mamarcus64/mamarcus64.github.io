@@ -1,11 +1,13 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
+title: Amazon
+description: Software development intern.<br>May 2022 - Aug 2022. Boston, MA.
 img: assets/img/7.jpg
-redirect: https://unsplash.com
 importance: 3
-category: work
+category: 2022
+learn_more: A summer of firsts for me - first time working at an established tech company, first time living by myself, and first time in the beautiful city of Boston. I'm just lucky I wasn't there for the winter; I don't think my weak California pysche could take anything that cold. At AWS, I was working with the RDS PostgreSQL Team, which to my chagrin, did not mean writing SQL commands for twelve weeks. Turns out, we were working ON Postgres, which means diving deep into a labyrinth of C code that was mostly written before I was even born. (Seriously, I found several comments that were timestamped from 1989). My project was focused on speeding up the SQL JOIN function by implementing semi-join hashing with <a href="https://web.stanford.edu/~balaji/papers/bloom.pdf"> Bloom filters </a> during a Merge Join to eliminate unnecessary table rows early on in the execution tree. Essentially, Merge Join is a join strategy that is very similar to Mergesort, which is great because it runs in O(n log n) time. However, it turns out that even this operation can be made more efficient - by scanning one side of the join and mapping it into a Bloom filter, which is essentially a low-storage probabilistic hash map, large swathes of the other join table can be removed if their distributions do not overlap much. I implemented this optimization into AWS' Postgres as well as a decision planner (based on a heuristic of the aforementioned distribution overlap) to decide when to actually execute it. Overall, this implementation was a success, increasing query speeds by up to 36% on ideal queries and improved our performance on the <a href="https://www.tpc.org/tpch/"> standard database benchmark TPC-H </a> by about 5%.
+proj_id: aws_2
+# last_loaded: true
 ---
 
 Every project has a beautiful feature showcase page.

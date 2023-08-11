@@ -1,10 +1,12 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
+title: Forschungszentrum Jülich
+description: DAAD scholar research intern. <br> Aug 2022 - Oct 2022. Jülich, Germany.
 img: assets/img/3.jpg
 importance: 2
-category: work
+category: 2022
+proj_id: julich
+learn_more: Say what you will about the Germans, but they love their hard work and their long words. When I first arrived at the IEK-10 Lab at Forschungszentrum Jülich they immediately had me sign my Arbeiterunfallverischerungsgesetz paperwork and before I could even take a sip of my Mineralwasser (lemon-flavored!), gave me a two-hour lecture on how their lab applied novel artificial intelligence and traditional linear programming towards solving energy-grid problems in the nearby region. Luckily for me, it was in English. Needless to say, my foray into Europe was a continuous stream of new and interesting experiences and my research project there was just as captivating. I was studying different methods for verifiable robustness for neural networks, which refers to the concept of maintaining classification accuracy within a region of input perturbations. To clarify, a classic example of a non-robust network is the image classifier that can recognize an image of a stop sign, but classifies it as a cat if you change the RGB value of just a few pixels. Typically, the standard method of creating robust models, <a href="https://arxiv.org/abs/1810.12715">Interval Bound Propogation (IBP)</a>, is to replace an input datum with a fixed-size orthongonal bounding box, which represents the epsilon of error to account for, and to propogate this box over each layer and to relax this constraint into another bounding box to make the problem tractable. I was tasked with investigating <a href="https://psor.uconn.edu/wp-content/uploads/sites/1972/2016/10/Generalized-McCormick-relaxations-Scott-et-al-2011.pdf">McCormick relaxations </a> as a layer propogation technique, where each layer's bounding box would be defined by the convex and concave relaxations of the associated layer function. This has the benefit of still being tractable, as these functions are continuous and monotonic, but these relaxations are in theory much tighter than the orthogonal boxes of IBP. Overall, like many academic projects, my investigation was a half-success. While my results did find that McCormick relaxations are about 40% tigher than IBP, calculating them took significantly longer (this is because McCormick relaxation calulations grow quadratically with dimension size, while two points will always define an orthongonal box). So for now, IBP remains on the throne, but maybe we'll see a McCormick comeback if processing power ever catches up!
 ---
 
 Every project has a beautiful feature showcase page.

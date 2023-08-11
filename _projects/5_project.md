@@ -1,10 +1,13 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
+title: Rocketansky
+description: Full-stack engineer contractor.<br>Mar 2021 - May 2021. Atlanta, GA.
 img: assets/img/1.jpg
 importance: 3
-category: fun
+category: 2021
+proj_id: rocketansky
+learn_more: Rocketansky was the quintessential startup and it was a perfect place to really begin my software development journey. I worked directly with the CTO and CEO almost every day (granted, the company had five employees) and it wasn't an uncommon sight to see half the team still logged on at 11 PM. Despite just being a freshman in college, I was trusted with huge responsibility right out the gate - I was spearheading the development of the main Windows application for our service. Rocketansky was a cybersecurity authentication platform that forwent authentication via passwords in favor of using hardware keys and biometrics. The logic was that passwords are easy to steal or figure out, while nowadays physical hardware tied to a device was actually more secure. So, while working on my application, I had to write the backend service that would create the unique cryptographic key tied to each device, perform authentication handshakes with our AWS servers, and verify the identity of the user in question. Meanwhile, I also had to create the frontend application, figure out installation drivers for Windows machines, and most importantly balance my schoolwork on top of all that (but don't worry, it was during Covid, so the classes were significantly easier than they would be now. No one tell Georgia Tech I said that.). In the end, though, I got it done. Unfortunately, Rocketansky closed shop in 2022, but I'll never forget the invaluable experience I had working there.
+last_loaded: true
 ---
 
 Every project has a beautiful feature showcase page.

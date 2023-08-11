@@ -1,10 +1,28 @@
 <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
+  <style>
+    .project-text {
+      color:ghostwhite;
+    }
+
+    .read-more {
+      color:ghostwhite;
+    }
+
+    /* .proj-button {
+      border-radius: 15%;
+      background-color:cornflowerblue;
+      color: black;
+      text-align: center;
+      font-family:Arial, Helvetica, sans-serif;
+      font: size 16px;
+    } */
+  </style>
   {% if project.redirect -%}
   <a href="{{ project.redirect }}">
     {%- else -%}
-    <a href="{{ project.url | relative_url }}">
+    <!-- <a href="{{ project.url | relative_url }}"> -->
       {%- endif %}
       <div class="card hoverable">
         {%- if project.img %}
@@ -13,8 +31,9 @@
           alt="project thumbnail" -%}
         {%- endif %}
         <div class="card-body">
-          <h2 class="card-title text-lowercase">{{ project.title }}</h2>
-          <p class="card-text">{{ project.description }}</p>
+          <h2 class="card-title">{{ project.title }}</h2>
+          <p class="project-text">{{ project.description }}</p>
+          <p class="card-text" class="read-more" style="display: block;" id="more_{{ project.proj_id }}">{{ project.learn_more }}</p>
           <div class="row ml-1 mr-1 p-0">
             {%- if project.github -%}
             <div class="github-icon">
@@ -29,8 +48,42 @@
               {%- endif %}
             </div>
             {%- endif %}
+            
+          
           </div>
+          <!-- <button class="proj-button" id={{ project.proj_id }}>Read more</button> -->
         </div>
       </div>
-    </a>
+    <!-- </a> -->
+    <!-- {% if project.include_script -%}
+    <script>
+        invoke = (event) => {
+        let proj_id = event.target.getAttribute('id')
+        let button = document.getElementById(proj_id);
+        let more = document.getElementById("more_" + proj_id);
+        if (more.style.display === "none") {
+          button.innerHTML = "Read less";
+          more.style.display = "block";
+        } else {
+          button.innerHTML = "Read more";
+          more.style.display = "none";
+        }
+      }
+    </script>
+
+    {%- endif %}
+    {% if project.last_loaded -%}
+    <script>
+        // VERY HACKY - make sure to manually add each new project here
+      // tbh just too lazy to figure out a real solution
+      projects = ['aws_1', 'aws_2', 'julich']
+      projects.forEach(item => {
+        document.getElementById(item).addEventListener("click", invoke);
+      });
+      setTimeout(projects.forEach(item => {
+        let more = document.getElementById("more_" + item);
+        more.style.display = "none";
+      }), 1000);
+    </script>
+    {%- endif %} -->
 </div>

@@ -519,6 +519,10 @@ footer.sticky-bottom {
     }
   }
 
+  .card-body {
+    margin-bottom: 10px;
+  }
+
   .card-item {
     width: auto;
     margin-bottom: 10px;
@@ -529,12 +533,6 @@ footer.sticky-bottom {
     }
   }
 
-  .grid-sizer,
-  .grid-item {
-    width: 250px;
-    margin-bottom: 10px;
-  }
-
   h2.category {
     color: var(--global-divider-color);
     border-bottom: 1px solid var(--global-divider-color);
@@ -542,7 +540,22 @@ footer.sticky-bottom {
     margin-top: 2rem;
     margin-bottom: 1rem;
     text-align: right;
+    position: relative;
   }
+}
+
+.grid {
+  position: relative;
+  margin: auto;
+  display: block;
+}
+
+.grid-sizer,
+.grid-item {
+  width: 700px;
+  position: relative;
+  margin-bottom: 10px;
+  display: block;
 }
 
 
