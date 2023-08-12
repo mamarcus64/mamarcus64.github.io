@@ -2,7 +2,7 @@
 layout: page
 title: Rocketansky
 description: Full-stack engineer contractor.<br>Mar 2021 - May 2021. Atlanta, GA.
-img: assets/img/1.jpg
+img: assets/img/rocketansky.png
 importance: 3
 category: 2021
 proj_id: rocketansky

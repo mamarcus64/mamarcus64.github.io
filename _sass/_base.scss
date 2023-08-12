@@ -515,7 +515,10 @@ footer.sticky-bottom {
 
   .card {
     img {
-      width: 100%;
+      width: 50%;
+      // hacky solution, but for some reason margin: auto doesn't work and align-content etc. also doesn't
+      // did I mention that I hate HTML/CSS before?
+      margin-left: 25%;
     }
   }
 

@@ -3,7 +3,7 @@ layout: about
 permalink: /about/
 title: about
 description: Materials for courses you taught. Replace this text with your description.
-nav: true
+nav: false
 nav_order: 5
 
 profile:

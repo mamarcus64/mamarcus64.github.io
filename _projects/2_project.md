@@ -2,7 +2,7 @@
 layout: page
 title: Forschungszentrum Jülich
 description: DAAD scholar research intern. <br> Aug 2022 - Oct 2022. Jülich, Germany.
-img: assets/img/3.jpg
+img: assets/img/julich.png
 importance: 2
 category: 2022
 proj_id: julich

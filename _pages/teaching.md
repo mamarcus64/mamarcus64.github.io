@@ -2,11 +2,19 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
 nav: true
 nav_order: 4
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+<h1> Georgia Tech </h1>
+<h3> Teaching Assistant for CS 4650: Natural Language Processing</h3>
+<h4> Jan 2023 - Present </h4>
+Being a TA for CS 4650 has been invaluable in my experience for both understanding and communicating natural language processing. The average class attendance usually hovers around 100 students, so while grading the semester projects can certainly be a pain, my office hours are usually pretty busy from start to finish. The course covers a wide range of topics, starting with historic language processing techniques such as neural bag-of-words models and finishing up with encoder-decoder models and even briefly touching on modern-day applications of LLM's. My day-to-day tasks include checking and answering posts on our online forum platform Piazza, holding weekly office hours, attending lectures and answering in-person questions, and everyone's least favorite part of the job, grading. Overall, though, being a TA has been a great experience and I hope to keep teaching in some capacity in my future endeavors.
+<br/><br/>
+<h3> PLUS Leader for CS 1332: Data Structures and Algorithms</h3>
+<h4> Jan 2022 - Dec 2022 </h4>
+As a PLUS (peer-led undergraduate study) Leader for Georgia Tech's most infamous "weed-out" course - which are the words of the professor, not mine - teaching data structures and algorithms to new students is often a daunting task. During these sessions, I would create diagrams, prompt discussions, and write practice coding problems for the various data structures covered in class. I held PLUS sessions twice week, which usually saw attendence of ten to twelve people, but during the several sessions that took place before big exams, I would pair up with other PLUS leaders and we would see up to 200 students show up. While these larger sessions felt more important, I definitely preferred the more intimate teaching experience of the smaller sessions, where I knew each student by name. My favorite activity was when I had students write the pseudocode of 2-4 Trees (a variant of the more well-known B-tree), since lectures only covered the conceptual functionality and did not dive into implementation. 2-4 Trees are notoriously difficult to implement, but it felt so rewarding to see my students slowly work through and eventually figure out the problem. It turns out, as I've found, that students are usually a lot smarter than they think, and it really just takes the right push here or there in the right direction to start the snowball. I'm happy to report that almost every one of the students that attended my PLUS sessions regularly received an A in the course, despite the overall class grade for CS 1332 hovering at or below a B average.
+<br/><br/>
+<h3> One-on-one Tutor for Tutoring and Academic Support </h3>
+<h4> Aug 2021 - Dec 2021 </h4>
+Little did I know that a small flyer posted on the second floor of the school libary advertising a "free, rewarding and flexible part-time job" would impact my life so much. The call was for a tutoring gig through Georgia Tech's Tutoring and Academic Support (TAS) program, and I figured it could be an easy way to make a quick buck. Turns out, it was not - initially, I was comically bad at tutoring (half the time the students knew more than me) and I was assigned to tutor for classes I hadn't taken in years, like Linear Algebra or even the dreaded Multivariable Calculus. However, I fixed myself up quick, reviewing concepts on Khan Academy and the like, and I started to pick up on little tricks. I started listening to the student more; I would rephrase my tutee's questions so they would answer the question on their own; I would leave breadcrumbs to the answer but let them discover it on their own; and soon enough, not only would I label myself at least a semi-competant tutor, I would actually look forward to my daily lunch sessions where I could teach a new student about orthogonal vector spaces or line integrals through vector fields. As you can see from my other experiences above, while I loved my time as a tutor, I definitely prefer leading a group session over a one-on-one interaction. However, my passion and expertise from teaching all stems from this first tutoring job in that iconic TAS office in the back corner of the library.
