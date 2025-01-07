@@ -20,7 +20,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-Hey there! I'm a Master's student at Georgia Tech researching the intersection of language and intelligence. I also graduated from Georgia Tech with a Computer Science degree with emphasis on [Intelligence](https://www.cc.gatech.edu/academics/threads/intelligence) and [Theory](https://www.cc.gatech.edu/academics/threads/theory) in May 2023. Feel free to check out any of my various experiences through the links above!
+Hello! I am a PhD Student at USC in the [SAIL Lab](https://sail.usc.edu).
 
 If you're looking for my research experiences, feel free to take a look at my [publications](/publications) or my [various lab involvements](/research/). I'd like to highlight my paper that was recently accepted into CSCW 2023, which investigates the differing responsibilities and expectations between couples when it comes to pregnancy prevention and how technology could potentially be used to create more equitable solutions. Also feel free to take a look at my various Natural Language Processing ventures, which span several labs and teaching experiences.
 
