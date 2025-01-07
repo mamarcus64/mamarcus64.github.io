@@ -1,13 +1,11 @@
 ---
 layout: page
-title: Amazon (again)
+title: Amazon
 description: Software development intern.<br>May 2023 - Aug 2023. Seattle, WA.
-img: assets/img/aws.jpg
 importance: 1
 category: 2023
-learn_more: They say sequels are never as good as the original, but I guess my AWS internship is the exception that makes the rule. This time, I was tasked with creating, deploying, and integrating a DNS device hostname resolution script for thousands of devices in several key regionalized VPCs. While the code itself wasn't too difficult to write, my project was more of a challenge in integration - I had to communicate with many different moving parts within the internal AWS codebase, from extracting useful information from L3NTS dumps to creating automated deployment pipeline alarms and rollbacks to using Apollo package dependencies to create CRON jobs for my script. Overall, a great summer. I'm sure gonna miss seeing Mount Rainier every morning from my room.
+learn_more: My second time around at Amazon, I was tasked with creating, deploying, and integrating a DNS device hostname resolution script for thousands of devices in several key regionalized VPCs. While the code itself wasn't too difficult to write, my project was more of a challenge in integration - I had to communicate with many different moving parts within the internal AWS codebase, from extracting useful information from L3NTS dumps to creating automated deployment pipeline alarms and rollbacks to using Apollo package dependencies to create CRON jobs for my script. Overall, a great summer. I'm sure gonna miss seeing Mount Rainier every morning from my room.
 proj_id: aws_1
-related_publications: einstein1956investigations, einstein1950meaning
 include_script: true
 ---
 

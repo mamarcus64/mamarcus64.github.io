@@ -2,7 +2,7 @@
 layout: page
 title: experience
 permalink: /experience/
-description: A growing collection of my various work-related endeavors, in a much more casual tone than my resume.
+description: A growing collection of my various industry-related endeavors.
 nav: true
 nav_order: 3
 display_categories: [2023, 2022, 2021]
