@@ -1,8 +1,0 @@
-1. Make sure you have npm and gh-pages installed:
-    npm install gh-pages --save-dev
-2. make your changes
-3. run:
-    npm run deploy
-- this looks at the scripts in package.json, where the function:
-    gh-pages -d .
-does everything
