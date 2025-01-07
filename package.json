@@ -6,6 +6,6 @@
     "node": "^22.9.0"
   },
   "scripts": {
-  "deploy": "gh-pages -d ."
+  "deploy": "gh-pages -d . --remove \"**/*~\""
 }
 }
