@@ -125,3 +125,101 @@ pages={24777-24785} }
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2505.17222}, 
 }
+
+@article{cryinglikebaby,
+  title = {``Crying like a Baby'': Survival Analysis and the Multimodal Memory of Holocaust Survivors},
+  author = {Gabor Mihaly Toth and Mohamed Laib and Alina Bothe and Marcus Ma and Shrikanth Narayanan and Cedric Pruski and Marcos da Silveira},
+  year = {2025},
+  journal = {Anthology of Computers and the Humanities},
+  volume = {3},
+  pages = {50--61},
+  editor = {Taylor Arnold, Margherita Fantoli, and Ruben Ros},
+  doi = {10.63744/sTRxoCHdBgK5}
+}
+
+@inproceedings{human-ai-misalignment,
+author = {Hall, Kaely and Ma, Marcus and Zhang, Xinyue and Das Swain, Vedant and Kim, Jennifer G},
+title = {Understanding Human-AI Misalignment in LLM-Based Job-Seeking Support for Neurodivergent Users},
+year = {2025},
+isbn = {9798400706769},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3663547.3746361},
+doi = {10.1145/3663547.3746361},
+abstract = {Large Language Models are often trained on data reflecting neurotypical norms, yet are increasingly deployed to support neurodivergent users in sensitive domains like job-seeking. We examine interactions between neurodivergent job-seekers and a GPT-4-powered career support chatbot through the lens of misalignment. Through analysis of over 300 chat logs and interviews with 15 neurodivergent participants, we found that the chatbot frequently misrepresented users’ skills, imposed neurotypical language and expectations, and provided generic or inappropriate advice– even when relevant user data was available. Participants expected the chatbot to interpret implicit insights from their data, however, they sometimes lacked the clarity or confidence to correct the system when it did not, revealing gaps in both AI design and user understanding of system function. Our findings underscore the need for bi-directional alignment between neurodivergent users and LLMs, and call for design strategies that integrate neurodivergent perspectives and preferences to ensure more authentic, personalized, and human-centered AI support.},
+booktitle = {Proceedings of the 27th International ACM SIGACCESS Conference on Computers and Accessibility},
+articleno = {83},
+numpages = {13},
+keywords = {Large Language Models, Empirical Study, Neurodivergence, Employment},
+location = {
+},
+series = {ASSETS '25}
+}
+
+@misc{avramidis2025deeplearningcharacterizesdepression,
+      title={Deep Learning Characterizes Depression and Suicidal Ideation from Eye Movements}, 
+      author={Kleanthis Avramidis and Woojae Jeong and Aditya Kommineni and Sudarsana R. Kadiri and Marcus Ma and Colin McDaniel and Myzelle Hughes and Thomas McGee and Elsi Kaiser and Dani Byrd and Assal Habibi and B. Rael Cahn and Idan A. Blank and Kristina Lerman and Takfarinas Medani and Richard M. Leahy and Shrikanth Narayanan},
+      year={2025},
+      eprint={2504.20944},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2504.20944}, 
+}
+
+@inproceedings{chochlakis-etal-2025-humans,
+    title = "Humans Hallucinate Too: Language Models Identify and Correct Subjective Annotation Errors With Label-in-a-Haystack Prompts",
+    author = "Chochlakis, Georgios  and
+      Wu, Peter  and
+      Bedi, Tikka Arjun Singh  and
+      Ma, Marcus  and
+      Lerman, Kristina  and
+      Narayanan, Shrikanth",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.993/",
+    doi = "10.18653/v1/2025.emnlp-main.993",
+    pages = "19648--19667",
+    ISBN = "979-8-89176-332-6",
+    abstract = "Modeling complex subjective tasks in Natural Language Processing, such as recognizing emotion and morality, is considerably challenging due to significant variation in human annotations. This variation often reflects reasonable differences in semantic interpretations rather than mere noise, necessitating methods to distinguish between legitimate subjectivity and error.We address this challenge by exploring label verification in these contexts using Large Language Models (LLMs). First, we propose a simple In-Context Learning binary filtering baseline that estimates the reasonableness of a document-label pair. We then introduce the Label-in-a-Haystack setting: the query and its label(s) are included in the demonstrations shown to LLMs, which are prompted to predict the label(s) again, while receiving task-specific instructions (e.g., emotion recognition) rather than label copying.We show how the failure to copy the label(s) to the output of the LLM are task-relevant and informative. Building on this, we propose the Label-in-a-Haystack Rectification (LiaHR) framework for subjective label correction: when the model outputs diverge from the reference gold labels, we assign the generated labels to the example instead of discarding it. This approach can be integrated into annotation pipelines to enhance signal-to-noise ratios. Comprehensive analyses, human evaluations, and ecological validity studies verify the utility of LiaHR for label correction. Code is available at https://github.com/gchochla/liahr."
+}
+
+@inproceedings{ma-etal-2025-large-language,
+    title = "Large Language Models Do Multi-Label Classification Differently",
+    author = "Ma, Marcus  and
+      Chochlakis, Georgios  and
+      Pandiyan, Niyantha Maruthu  and
+      Thomason, Jesse  and
+      Narayanan, Shrikanth",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.126/",
+    doi = "10.18653/v1/2025.emnlp-main.126",
+    pages = "2472--2495",
+    ISBN = "979-8-89176-332-6",
+    abstract = "Multi-label classification is prevalent in real-world settings, but the behavior of Large Language Models (LLMs) in this setting is understudied. We investigate how autoregressive LLMs perform multi-label classification, focusing on subjective tasks, by analyzing the output distributions of the models at each label generation step. We find that the initial probability distribution for the first label often does not reflect the eventual final output, even in terms of relative order and find LLMs tend to suppress all but one label at each generation step. We further observe that as model scale increases, their token distributions exhibit lower entropy and higher single-label confidence, but the internal relative ranking of the labels improves. Finetuning methods such as supervised finetuning and reinforcement learning amplify this phenomenon. We introduce the task of distribution alignment for multi-label settings: aligning LLM-derived label distributions with empirical distributions estimated from annotator responses in subjective tasks. We propose both zero-shot and supervised methods which improve both alignment and predictive performance over existing approaches. We find one method {--} taking the max probability over all label generation distributions instead of just using the initial probability distribution {--} improves both distribution alignment and overall F1 classification without adding any additional computation."
+}
+
+@inproceedings{shi25g_interspeech,
+  title     = {{75-Speaker Annot-16: A benchmark dataset for speech articulatory rt-MRI annotation with articulator contours and phonetic alignment}},
+  author    = {Xuan Shi and Yubin Zhang and Yijing Lu and Marcus Ma and Tiantian Feng and Asterios Toutios and Haley Hsu and Louis Goldstein and Shrikanth Narayanan},
+  year      = {2025},
+  booktitle = {{Interspeech 2025}},
+  pages     = {2175--2179},
+  doi       = {10.21437/Interspeech.2025-2394},
+  issn      = {2958-1796},
+}
+
