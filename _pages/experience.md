@@ -5,7 +5,7 @@ permalink: /experience/
 description: A growing collection of my various industry-related endeavors.
 nav: true
 nav_order: 3
-display_categories: [2023, 2022, 2021]
+display_categories: [2025, 2023, 2022, 2021]
 horizontal: false
 ---
 

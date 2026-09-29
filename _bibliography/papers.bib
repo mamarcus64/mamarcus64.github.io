@@ -126,14 +126,18 @@ location = {
 series = {ASSETS '25}
 }
 
-@misc{avramidis2025deeplearningcharacterizesdepression,
-      title={Deep Learning Characterizes Depression and Suicidal Ideation from Eye Movements}, 
-      author={Kleanthis Avramidis and Woojae Jeong and Aditya Kommineni and Sudarsana R. Kadiri and Marcus Ma and Colin McDaniel and Myzelle Hughes and Thomas McGee and Elsi Kaiser and Dani Byrd and Assal Habibi and B. Rael Cahn and Idan A. Blank and Kristina Lerman and Takfarinas Medani and Richard M. Leahy and Shrikanth Narayanan},
-      year={2025},
-      eprint={2504.20944},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2504.20944}, 
+@article{avramidis2026depression,
+  title = {Deep learning characterizes depression and suicidal ideation in young adults from eye movements},
+  author = {Avramidis, Kleanthis and Jeong, Woojae and Kommineni, Aditya and Kadiri, Sudarsana R. and Ma, Marcus and McDaniel, Colin and Hughes, Myzelle and McGee, Thomas and Kaiser, Elsi and Byrd, Dani and Habibi, Assal and Cahn, B. Rael and Blank, Idan A. and Lerman, Kristina and Medani, Takfarinas and Leahy, Richard M. and Narayanan, Shrikanth},
+  year = {2026},
+  month = mar,
+  journal = {npj Digital Medicine},
+  volume = {9},
+  number = {1},
+  doi = {10.1038/s41746-026-02550-4},
+  url = {https://doi.org/10.1038/s41746-026-02550-4},
+  arxiv = {2504.20944},
+  abstract = {Objective biobehavioral markers for mental health conditions remain elusive, with diagnosis typically relying on self-reports and clinical interviews. We investigate eye tracking as a potential marker of attentional and mood biases associated with symptoms of depression and suicidal ideation from self-reported screening questionnaires. We analyze eye movements from 126 young adults during reading and responding to emotionally loaded sentences. A deep learning framework was designed to account for intra-trial and inter-trial variations in eye movements, achieving an AUC of 0.793 (95\% CI: 0.766--0.819) for identifying depression/suicidality against healthy controls, and 0.826 (95\% CI: 0.798--0.853) for suicidality specifically. The model also exhibited moderate accuracy in differentiating depressed from suicidal individuals (AUC: 0.609, 95\% CI: 0.569--0.646). Discriminative patterns were more pronounced during response generation and for stimuli of negative sentiment. These findings suggest that eye tracking can provide objective markers of self-reported symptom severity by measuring the impact of emotional stimuli on oculomotor control.}
 }
 
 @inproceedings{chochlakis-etal-2025-humans,
@@ -191,5 +195,67 @@ series = {ASSETS '25}
   pages     = {2175--2179},
   doi       = {10.21437/Interspeech.2025-2394},
   issn      = {2958-1796},
+}
+
+@misc{ma2026intelligencerequiresgroundingembodiment,
+  title = {Intelligence Requires Grounding But Not Embodiment},
+  author = {Marcus Ma and Shrikanth Narayanan},
+  year = {2026},
+  eprint = {2601.17588},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.AI},
+  url = {https://arxiv.org/abs/2601.17588},
+  arxiv = {2601.17588},
+  abstract = {Recent advances in LLMs have reignited scientific debate over whether embodiment is necessary for intelligence. We present the argument that intelligence requires grounding, a phenomenon entailed by embodiment, but not embodiment itself. We define intelligence as the possession of four properties---motivation, predictive ability, understanding of causality, and learning from experience---and argue that each can be achieved by a non-embodied, grounded agent. We use this to conclude that grounding, not embodiment, is necessary for intelligence. We then present a thought experiment of an intelligent LLM agent in a digital environment and address potential counterarguments.}
+}
+
+@misc{ma2026authorslabeldocuments,
+  title = {Authors Should Label Their Own Documents},
+  author = {Marcus Ma and Cole Johnson and Nolan Bridges and Jackson Trager and Georgios Chochlakis and Shrikanth Narayanan},
+  year = {2026},
+  eprint = {2512.12976},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CL},
+  url = {https://arxiv.org/abs/2512.12976},
+  arxiv = {2512.12976},
+  abstract = {Third-party annotation is the status quo for labeling text, but egocentric information such as sentiment and belief can at best only be approximated by a third-person proxy. We introduce author labeling, an annotation technique where the writer of the document itself annotates the data at the moment of creation. We collaborate with a commercial chatbot with over 20,000 users to deploy an author labeling annotation system. We train and deploy an online-learning model architecture for product recommendation with author-labeled data and achieve a 537\% improvement in click-through rate compared to an industry advertising baseline running concurrently. We then compare the quality and practicality of author labeling to three traditional annotation approaches for sentiment analysis and find author labeling to be higher quality, faster to acquire, and cheaper.}
+}
+
+@inproceedings{ma2026encodingemotion,
+  title = {Encoding Emotion Through Self-Supervised Eye Movement Reconstruction},
+  author = {Marcus Ma and Jordan Prescott and Emily Zhou and Tiantian Feng and Kleanthis Avramidis and Gabor Mihaly Toth and Shrikanth Narayanan},
+  year = {2026},
+  booktitle = {{ICASSP 2026}},
+  url = {https://arxiv.org/abs/2601.12534},
+  arxiv = {2601.12534},
+  abstract = {The relationship between emotional expression and eye movement is well-documented, with literature establishing gaze patterns are reliable indicators of emotion. However, most studies utilize specialized, high-resolution eye-tracking equipment, limiting the potential reach of findings. We investigate how eye movement can be used to predict multimodal markers of emotional expression from naturalistic, low-resolution videos. We utilize a collection of video interviews from the USC Shoah Foundation's Visual History Archive with Holocaust survivors as they recount their experiences in the Auschwitz concentration camp. Inspired by pretraining methods on language models, we develop a novel gaze detection model that uses self-supervised eye movement reconstruction that can effectively leverage unlabeled video. We use this model's encoder embeddings to fine-tune models on two downstream tasks related to emotional expression and conclude that self-supervised eye movement reconstruction is an effective method for encoding the affective signal they carry.}
+}
+
+@misc{zhou2026lookingpasteyemovements,
+  title = {Looking Into the Past: Eye Movements Characterize Elements of Autobiographical Recall in Interviews with Holocaust Survivors},
+  author = {Emily Zhou and Marcus Ma and Kleanthis Avramidis and Gabor Mihaly Toth and Shrikanth Narayanan},
+  year = {2026},
+  eprint = {2604.22016},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.MM},
+  url = {https://arxiv.org/abs/2604.22016},
+  arxiv = {2604.22016},
+  abstract = {Eye movement and memory retrieval are deeply and bidirectionally intertwined, however existing literature is generally confined to controlled lab settings. We investigate the relationship between eye gaze and memory recall in free-form autobiographical recall using a large video corpus of semi-naturalistic interviews with Holocaust survivors (N=806). We examine eye movements with respect to episodic, semantic, affective, and temporal dimensions of traumatic and highly emotional autobiographical recall. We observe gaze patterns vary significantly across certain temporal contexts, most prominently in vertical eye movements, and find that eye movements entirely preceding sentence onset are sufficient for predicting temporal context.}
+}
+
+@inproceedings{ma2026smiling,
+  author = {Ma, Marcus and Zhou, Emily and Ludwig, Leonard and H{\"o}rath, Julia and Winkler, Christina and Avramidis, Kleanthis and Feng, Tiantian and Toth, Gabor and Bothe, Alina and Narayanan, Shrikanth},
+  title = {Smiling Regulates Emotion During Traumatic Recollection},
+  year = {2026},
+  isbn = {979-8-4007-2318-6},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3776574.3831180},
+  doi = {10.1145/3776574.3831180},
+  booktitle = {Proceedings of the 28th ACM International Conference on Multimodal Interaction},
+  location = {Napoli, Italy},
+  series = {ICMI '26},
+  arxiv = {2604.19019},
+  abstract = {We study when, where, and why 978 Holocaust survivors smile in video testimonies. We create an automatic smile detection model from facial features with an F1 of 85\% and annotate detected smiles under two established taxonomies of smiling. We produce narrative features on 1,083,417 transcript sentences as well as emotional valence from three different modalities: audio, eye gaze, and text transcript. Smiling rates are associated with specific semantic topics, narrative structures, and temporal syntaxes across the corpus. Smiles often occur during periods of intense negative affect and we find negative-affect smiles are associated with more positive subsequent valence trajectories across all three modalities. Smiling reduces eye dynamics and blink rates, with both of these effects modulated by narrative valence. Taken together, we conclude that smiling plays a critical role in regulating emotion and social interaction during traumatic recollection.}
 }
 

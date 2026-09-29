@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Forschungszentrum Jülich
-description: DAAD scholar research intern. <br> Aug 2022 - Oct 2022. Jülich, Germany.
-importance: 2
-category: 2022
-proj_id: julich
-learn_more: I was supported by the <a href="https://www.daad.de/rise/en/"> DAAD RISE Research Scholarship </a> to perform theoretical machine learning research for the IEK-10 Lab at Forschungszentrum Jülich. I investigated different methods for verifiable robustness for neural networks, which refers to the concept of maintaining classification accuracy within a region of input perturbations. A classic example of a non-robust network is the image classifier that can recognize an image of a stop sign, but classifies it as a cat if you change the RGB value of just a few pixels. Typically, the standard method of creating robust models, <a href="https://arxiv.org/abs/1810.12715">Interval Bound Propogation (IBP)</a>, is to replace an input datum with a fixed-size orthongonal bounding box, which represents the epsilon of error to account for, and to propogate this box over each layer and to relax this constraint into another bounding box to make the problem tractable. I investigated <a href="https://psor.uconn.edu/wp-content/uploads/sites/1972/2016/10/Generalized-McCormick-relaxations-Scott-et-al-2011.pdf">McCormick relaxations </a> as a layer propogation technique, where each layer's bounding box would be defined by the convex and concave relaxations of the associated layer function. This has the benefit of still being tractable, as these functions are continuous and monotonic, but these relaxations are much tighter than the orthogonal boxes of IBP. Overall, like many academic projects, my investigation was a half-success. While my results found that McCormick relaxations were about 40% tigher than IBP, calculating them took significantly longer (this is because McCormick relaxation calulations grow quadratically with dimension size, while two points will always define an orthongonal box). So, McCormick Relaxations are theoretically more efficient for robustness training, but in practice take too long to calculate.
+title: Echo Group
+description: CTO & Co-Founder.<br>2025 - Present.
+importance: 1
+category: 2025
+proj_id: echo_group
+learn_more: At Echo Group, I lead technical development as CTO and Co-Founder. We build systems that collect real-time, author-labeled human preference data in order to ground language models in genuine intent rather than third-party approximations. See [our company website](https://echogroup.ai) for more details.
 ---
 
 Every project has a beautiful feature showcase page.

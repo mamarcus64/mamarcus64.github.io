@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Forschungszentrum Jülich
-description: DAAD scholar research intern. <br> Aug 2022 - Oct 2022. Jülich, Germany.
+title: Mercor
+description: Team lead.<br>2025.
 importance: 2
-category: 2022
-proj_id: julich
-learn_more: I was supported by the <a href="https://www.daad.de/rise/en/"> DAAD RISE Research Scholarship </a> to perform theoretical machine learning research for the IEK-10 Lab at Forschungszentrum Jülich. I investigated different methods for verifiable robustness for neural networks, which refers to the concept of maintaining classification accuracy within a region of input perturbations. A classic example of a non-robust network is the image classifier that can recognize an image of a stop sign, but classifies it as a cat if you change the RGB value of just a few pixels. Typically, the standard method of creating robust models, <a href="https://arxiv.org/abs/1810.12715">Interval Bound Propogation (IBP)</a>, is to replace an input datum with a fixed-size orthongonal bounding box, which represents the epsilon of error to account for, and to propogate this box over each layer and to relax this constraint into another bounding box to make the problem tractable. I investigated <a href="https://psor.uconn.edu/wp-content/uploads/sites/1972/2016/10/Generalized-McCormick-relaxations-Scott-et-al-2011.pdf">McCormick relaxations </a> as a layer propogation technique, where each layer's bounding box would be defined by the convex and concave relaxations of the associated layer function. This has the benefit of still being tractable, as these functions are continuous and monotonic, but these relaxations are much tighter than the orthogonal boxes of IBP. Overall, like many academic projects, my investigation was a half-success. While my results found that McCormick relaxations were about 40% tigher than IBP, calculating them took significantly longer (this is because McCormick relaxation calulations grow quadratically with dimension size, while two points will always define an orthongonal box). So, McCormick Relaxations are theoretically more efficient for robustness training, but in practice take too long to calculate.
+category: 2025
+proj_id: mercor
+learn_more: At Mercor, I was a team lead of about 100 contractors where I oversaw the collection of expert-annotated math and coding documents. These data have been used by leading frontier labs as verifiable rewards to train models such as Google Gemini, Claude Opus, and GPT Codex. This was my first job where my primary role was management and not direct contribution, and it taught me a lot about how to lead by example and think big picture.
 ---
 
 Every project has a beautiful feature showcase page.
